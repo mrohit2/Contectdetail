@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_bright"
+
+    android:layout_height="40dp">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3sp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_name"
+        android:text="name here"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_mob"
+        android:text="ph no. here"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_email"
+        android:text="email here"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+
+</LinearLayout>

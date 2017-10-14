@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.rohit.contectdetail.MainActivity"
+    >
+  <android.support.v7.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingLeft="15dp"
+      android:paddingRight="15dp"
+      android:layout_marginTop="60dp">
+ <Button
+     android:id="@+id/add_contact_bn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Add contact"
+     android:textStyle="bold"
+     android:onClick="addInformation"
+     android:textColor="@android:color/white"
+     android:background="@drawable/button_style"
+     android:layout_marginTop="20dp"
+     android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/View_contact_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View contact"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/white"
+
+        android:background="@drawable/button_style"
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/search_contact_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search contact"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/update_contact_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update contact"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/delete_contact_bn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete contact"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+  </android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>

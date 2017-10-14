@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rohit.contectdetail.Search_Activity">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/search_edtx"
+            android:layout_width="234dp"
+            android:hint="enter name"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="search"
+            android:background="@drawable/button_style"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/update_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Name"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/name_etx_view"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter mob no."
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/mob_etx_view"/>
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter email"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_bright"
+            android:id="@+id/email_etx_view"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
